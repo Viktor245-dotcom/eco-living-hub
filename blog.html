@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore our latest articles on sustainable living, renewable energy, organic gardening, and eco-friendly products. Weekly updates with practical tips.">
+    <meta name="keywords" content="blog, eco articles, sustainable living tips, renewable energy guide, organic gardening">
+    <meta name="author" content="Eco Living Hub">
+    <title>Blog - Eco Living Hub</title>
+    <link rel="stylesheet" href="style/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="index.html">Eco Living Hub</a>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Blog Hero -->
+    <header class="page-hero">
+        <div class="container">
+            <h1>Our Blog</h1>
+            <p>Weekly articles on sustainable living and environmental tips</p>
+        </div>
+    </header>
+
+    <!-- Blog Categories -->
+    <section class="blog-categories">
+        <div class="container">
+            <div class="category-filter">
+                <button class="filter-btn active" data-filter="all">All Articles</button>
+                <button class="filter-btn" data-filter="sustainable-home">Sustainable Home</button>
+                <button class="filter-btn" data-filter="renewable-energy">Renewable Energy</button>
+                <button class="filter-btn" data-filter="organic-gardening">Organic Gardening</button>
+                <button class="filter-btn" data-filter="eco-products">Eco Products</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Articles -->
+    <section class="blog-articles">
+        <div class="container">
+            <div class="articles-grid">
+                <!-- Sustainable Home Articles -->
+                <article class="blog-card" data-category="sustainable-home">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=800" alt="Sustainable home practices" loading="lazy">
+                        <span class="blog-category">Sustainable Home</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> January 15, 2024</span>
+                            <span><i class="far fa-clock"></i> 5 min read</span>
+                        </div>
+                        <h2>10 Easy Ways to Reduce Energy Consumption at Home</h2>
+                        <p>Discover simple yet effective strategies to lower your carbon footprint and save money on utility bills. From LED lighting to smart thermostats, learn how small changes can make a big impact.</p>
+                        <a href="article-energy-reduction.html" class="read-more">Read More</a>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-category="sustainable-home">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1581578731117-104f2a4d20e6?w=800" alt="Zero waste kitchen" loading="lazy">
+                        <span class="blog-category">Sustainable Home</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> January 8, 2024</span>
+                            <span><i class="far fa-clock"></i> 7 min read</span>
+                        </div>
+                        <h2>Creating a Zero-Waste Kitchen: A Complete Guide</h2>
+                        <p>Transform your kitchen into an eco-friendly space with our comprehensive guide to zero-waste living. Learn about composting, sustainable food storage, and plastic-free alternatives.</p>
+                        <a href="article-zero-waste-kitchen.html" class="read-more">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Renewable Energy Articles -->
+                <article class="blog-card" data-category="renewable-energy">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=800" alt="Solar panels" loading="lazy">
+                        <span class="blog-category">Renewable Energy</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> January 12, 2024</span>
+                            <span><i class="far fa-clock"></i> 8 min read</span>
+                        </div>
+                        <h2>Solar Panels 101: Everything You Need to Know</h2>
+                        <p>Understanding solar energy systems, costs, and benefits for residential properties. This comprehensive guide covers installation, maintenance, and maximizing your solar investment.</p>
+                        <a href="article-energy-reduction.html" class="read-more">Read More</a>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-category="renewable-energy">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=800" alt="Wind energy" loading="lazy">
+                        <span class="blog-category">Renewable Energy</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> January 5, 2024</span>
+                            <span><i class="far fa-clock"></i> 6 min read</span>
+                        </div>
+                        <h2>Small-Scale Wind Energy: Is It Right for Your Home?</h2>
+                        <p>Explore the potential of residential wind turbines. Learn about site requirements, costs, and how to determine if wind energy is a viable option for your location.</p>
+                        <a href="article-energy-reduction.html" class="read-more">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Organic Gardening Articles -->
+                <article class="blog-card" data-category="organic-gardening">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800" alt="Organic vegetable garden" loading="lazy">
+                        <span class="blog-category">Organic Gardening</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> January 10, 2024</span>
+                            <span><i class="far fa-clock"></i> 10 min read</span>
+                        </div>
+                        <h2>Starting Your First Organic Vegetable Garden</h2>
+                        <p>A complete beginner's guide to growing organic vegetables in your backyard or containers. From soil preparation to pest control, learn everything you need to start your garden.</p>
+                        <a href="article-energy-reduction.html" class="read-more">Read More</a>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-category="organic-gardening">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800" alt="Composting" loading="lazy">
+                        <span class="blog-category">Organic Gardening</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> January 3, 2024</span>
+                            <span><i class="far fa-clock"></i> 6 min read</span>
+                        </div>
+                        <h2>The Art of Composting: Turning Waste into Gold</h2>
+                        <p>Master the fundamentals of home composting. Learn different methods, what to compost, and how to use your finished compost to enrich your garden soil naturally.</p>
+                        <a href="article-energy-reduction.html" class="read-more">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Eco Products Articles -->
+                <article class="blog-card" data-category="eco-products">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=800" alt="Eco-friendly products" loading="lazy">
+                        <span class="blog-category">Eco Products</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> January 14, 2024</span>
+                            <span><i class="far fa-clock"></i> 7 min read</span>
+                        </div>
+                        <h2>Top 10 Sustainable Products for Your Home in 2024</h2>
+                        <p>Our curated list of must-have eco-friendly products for every home. From bamboo kitchenware to recycled paper products, discover sustainable alternatives for everyday items.</p>
+                        <a href="article-energy-reduction.html" class="read-more">Read More</a>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-category="eco-products">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1523293182086-7651a899d37f?w=800" alt="Reusable water bottles" loading="lazy">
+                        <span class="blog-category">Eco Products</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> January 7, 2024</span>
+                            <span><i class="far fa-clock"></i> 5 min read</span>
+                        </div>
+                        <h2>The Ultimate Guide to Reusable Water Bottles</h2>
+                        <p>Compare materials, features, and brands to find the perfect reusable water bottle. Learn about sustainability factors and how to care for your bottle.</p>
+                        <a href="article-energy-reduction.html" class="read-more">Read More</a>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Pagination -->
+            <div class="pagination">
+                <span class="page-link disabled">Previous</span>
+                <a href="blog.html" class="page-link active">1</a>
+                <a href="blog-page-2.html" class="page-link">2</a>
+                <a href="blog-page-3.html" class="page-link">3</a>
+                <a href="blog-page-2.html" class="page-link">Next</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <h2>Stay Updated</h2>
+            <p>Subscribe to our newsletter for weekly eco-friendly tips and new articles.</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Eco Living Hub</h3>
+                    <p>Your trusted source for sustainable living tips and eco-friendly practices.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Eco Living Hub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
